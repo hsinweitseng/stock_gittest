@@ -1,5 +1,5 @@
 # coding: utf-8
-
+# testd on github on Mac
 #02 plotGraph
 # v1.1 add moving average
 #cover #6, #7, #8, #9, #10
