@@ -1,6 +1,3 @@
 
 # stock_gittest
-This is just the begining of using GitHub to do side project for GitHub.
-This is\
-This is just the begiing of thee test
-This is edited on the mac 
+This is a practice for myself to get familiar with GITHUB manager for personal coding practice. 

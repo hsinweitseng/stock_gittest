@@ -1,6 +1,5 @@
-#02 plotGraph
+# 02 plotGraph
 # v1.1 add moving average
-#cover #6, #7, #8, #9, #10
 
 import time
 import datetime
@@ -10,7 +9,6 @@ import matplotlib.ticker as mticker
 import matplotlib.dates as mdates
 from matplotlib.finance import candlestick
 import datetime
-# matplotlib.rcParams.update({'font.size':9}) #not sure why doesn't work
 
 eachStock = 'AAPL','GOOG','MSFT','CMG','AMZN','EBAY','TSLA','T','MU','NUGT','WDC'
 

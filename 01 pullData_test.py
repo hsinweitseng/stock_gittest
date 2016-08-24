@@ -1,6 +1,10 @@
+# Update with GITHUB manager.
+
+
 import urllib2
 import time
 import datetime
+import os
 stocksToPull = 'AAPL','GOOG','MSFT','CMG','AMZN','EBAY','TSLA','T','MU','NUGT','WDC','GPRO','GE'
 
 def pullData(stock):
@@ -20,7 +24,7 @@ def pullData(stock):
             print str(e)
             time.sleep(1)
             lastUnix = 0
-
+	os.chdir(os.getcwd+'/data')
         saveFile = open(saveFileLine,'a')
         sourceCode = urllib2.urlopen(urlToVisit).read()
         splitSource = sourceCode.split('\n')

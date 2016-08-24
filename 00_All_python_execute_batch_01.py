@@ -1,5 +1,5 @@
-import xlrd
-import MySQLdb
+import xlrdkls
+
 import time
 import os
 import glob
@@ -22,9 +22,9 @@ def main():
 		
 	print('Python program module finished')
 	
-	#	Python_SMS to cell phone-----------------
+	#Python_SMS to cell phone-----------------
 	import Python_sms
-	#Python_sms.Send_SMS('Testing all python execute batch')
+	Python_sms.Send_SMS('Testing all python execute batch')
 
 	#--------------------------------------------------------
 	#Testing between syncying two computers.
